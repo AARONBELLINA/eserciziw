@@ -1,0 +1,29 @@
+.magenta-box{
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition: transform 0.3s ease;
+  }
+  
+  .magenta-box:hover{
+    transform: translateX(50px);
+  }
+  
+  .blue-box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: color-change 5s infinite;
+  }
+  
+  @keyframes color-change{
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: blue;
+    }
+  }
