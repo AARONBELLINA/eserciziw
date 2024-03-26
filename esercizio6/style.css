@@ -1,2 +1,15 @@
-.absolute{position: absolute;top:30px ;right: 30px;background-color: red;
-width: 80%;}
+.absolute {position: absolute;top:30px ;right: 30px;background-color: red;
+width: 200px;height:100px}
+.fixed { 
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    width: 200px;
+    height: 100px;background-color: aqua;
+}
+.contenitore { width: 200px;
+    height: 100px;background-color: blue;}
+.sticky{position:sticky ;
+    top:50px ;
+    width: 100px;
+    height:100px;background-color: lightpink;}

@@ -1,0 +1,8 @@
+header{color:black;}
+   @media screen and (min-width: 600px) {header {color:green}    
+}
+    @media screen and (min-width: 800px) {
+    img {
+    width: 49%;
+    }
+    } 
