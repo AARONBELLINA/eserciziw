@@ -1,0 +1,84 @@
+
+  
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin-bottom: 0;animation: color-change 2.5s infinite;
+}
+@keyframes color-change{
+  0% {
+    color: blue;
+  }
+  50% {
+    color: rgb(1, 197, 76);
+  }
+  100% {
+    color: rgb(83, 5, 209);
+  }
+  }
+  
+  #main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+ h1, h2, h3, h4, h5 {font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: #446CB3;
+}
+  
+  h2 {text-align: center;margin-top: -50px; padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  
+  h3, h4, h5 {
+    font-size: 1.5rem;
+  }
+  
+  figcaption {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  
+  #img-div {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  #image {border:2px solid blue;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #img-caption {font-size: large;
+  }
+  
+  #tribute-info {
+    line-height: 1.6;
+  }
+  
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #446CB3;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    transition: all 0.3s;}
+  
+  
+  
